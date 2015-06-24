@@ -46,23 +46,44 @@
                 
 
                 <ul class="dl-menu">
-                <li data-animation="1"><a href="#">meg</a></li>
-               
-                            <li data-animation="3"><a href="#">portofølje</a></li>
-                            <li data-animation="4"><a href="#">kontakt</a></li>
+                            <li data-animation="1"><a href="#">Hvem jeg er</a></li>
+                            <li data-animation="3"><a href="#">Mitt arbeid</a></li>
+                            <li data-animation="4"><a href="#">Kontakt meg</a></li>
                 
                 </ul>
             </div><!-- /dl-menu-wrapper-->
         </div><!-- /triggers -->
 
         <div id="pt-main" class="pt-perspective">
-            <div class="pt-page pt-page-1"><h1><span>1</h1>
+            <div class="pt-page pt-page-1">
                  <div class="hero">
+
+                 <div class="wrapper-box">
+                    <div class="box">
+                        <h1>Ønsker du hjelp til noe?</h1>
+                        <form action="action_page.php" method="GET">
+                            <input type="text" value="Navn *">
+                            <br>
+                            <input type="text" value="Bedrift">
+                            <br>
+                            <input type="text" value="Tlf">
+                            <br>
+                            <textarea name="message" rows="10" cols="30">Skriv inn din melding *</textarea>
+                            <br>
+                            <p>Husk å fylle ut de røde feltene *</p>
+                            <input class="send" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+
+                
             <div class="text">
                 <img class="logo" src="assets/img/logo.jpg"></br>
                 <span class="hello">Stine Andresen</span></br>
                 <span class="title">Multimediedesigner</span> 
-            </div>   
+            </div>  
+
+
         </div><!--hero-text-->
 
 
@@ -72,12 +93,15 @@
 
     <div class="pt-page pt-page-2">
        <section>
-            <div class="img"></div> 
+            <img class="img" src="assets/img/meg.jpg">
             <div class="text-meg">         
                 <h1>Hvem jeg er</h1>
                 <p class="omMeg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at nulla et est rutrum malesuada quis nec enim. Etiam interdum aliquam justo a consectetur. Phasellus dui leo, pretium at mollis dapibus, volutpat in lorem. Proin at egestas neque. Phasellus ante lorem, elementum a sem non, commodo consectetur dolor. Donec efficitur vitae lorem sed blandit. Duis aliquam nisi a varius rhoncus.
                 </br></br>
-                Donec nec mi blandit, feugiat lorem a, auctor risus. Nullam lacinia nulla sit amet eros rhoncus, non consectetur lorem luctus. Maecenas tempus magna vel sem pretium luctus. Vestibulum at pulvinar risus. Ut non vulputate nisl, id molestie ante. Donec sem augue, vehicula ac justo quis, volutpat mattis ipsum. Sed mattis sit amet enim et commodo. Aliquam luctus libero id ipsum hendrerit dictum.</p>
+                Donec nec mi blandit, feugiat lorem a, auctor risus. Nullam lacinia nulla sit amet eros rhoncus, non consectetur lorem luctus. Maecenas tempus magna vel sem pretium luctus. Vestibulum at pulvinar risus. Ut non vulputate nisl, id molestie ante. Donec sem augue, vehicula ac justo quis, volutpat mattis ipsum. Sed mattis sit amet enim et commodo. Aliquam luctus libero id ipsum hendrerit dictum.
+
+                </br></br>
+                Quis, volutpat mattis ipsum. Sed mattis sit amet enim et commodo. Aliquam luctus libero id ipsum hendrerit dictum.</p>
             </div>
        </section>     
 
@@ -86,8 +110,32 @@
 
 
             </div>
-            <div class="pt-page pt-page-3"><h1>3</div>
-            <div class="pt-page pt-page-4"><h1>4</h1></div>
+            <div class="pt-page pt-page-3"></div>
+            <div class="pt-page pt-page-4">
+                <div class="box">
+            <h1>Kontakt meg</h1>
+            <form action="action_page.php" method="GET">
+
+            <input type="text" value="Navn*">
+            <br>
+
+            <input type="text" value="Bedrift">
+            <br>
+
+            <input type="text" value="Tlf">
+            <br>
+            <textarea name="message" rows="10" cols="30">
+Skriv inn din melding
+</textarea>
+<br>
+            <input type="submit" value="Submit">
+
+            </form>
+
+</div>
+
+            </div>
+
         </div>
 
         <div class="pt-message">

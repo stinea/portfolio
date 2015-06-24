@@ -52,25 +52,9 @@ $primary-font: 'Oswald', sans-serif;
   	margin-bottom: 0;
 	color: #000000;
 	font-family: $primary-font;
-
+	text-align: left;
 }
 
-.pt-page h1 span {
-	font-family: 'Satisfy', serif;
-	font-weight: 400;
-	font-size: 40%;
-	text-transform: none;
-	word-spacing: 0;
-	letter-spacing: 0;
-	display: block;
-	opacity: 0.4;
-
-
-}
-
-.pt-page h1 strong {
-	color: rgba(0,0,0,0.1);
-}
 
 .pt-page-1, .pt-page-2, .pt-page-3, .pt-page-4  {
 	background: rgb(247, 239, 223);
@@ -82,15 +66,19 @@ $primary-font: 'Oswald', sans-serif;
 
 .pt-triggers {
 	position: absolute;
-	width: 300px;
-	z-index: 999999;
-	top: 12%;
-	left: 50%;
-	margin-top: 130px;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%); 
-	transform: translateX(-50%);
+  	width: 100%;
+  	font-size:12px;
+  	bottom: 0;
+  	z-index: 999999;
+  	text-align: right;
+  	 /* background-color: rgba(200, 89, 49, 1);*/
+  	  background: url('../img/pattern.jpg');
+  /* text-align: left; */
+  /* margin-top: 130px; */
+  /* -webkit-transform: translateX(-50%); */
+ /* -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  /* transform: translateX(-50%); */
 }
 
 .no-js .pt-triggers {
@@ -160,7 +148,7 @@ $primary-font: 'Oswald', sans-serif;
 	display: block;
 }
 
-@media screen and (max-width: 47.4375em) {
+/*@media screen and (max-width: 47.4375em) {
 	.pt-page h1 {
 		font-size: 3em;
 	}
@@ -180,8 +168,4 @@ $primary-font: 'Oswald', sans-serif;
 	}
 }
 
-@media screen and (max-height: 38em) { 
-	.pt-triggers .dl-menuwrapper {
-		display: none;
-	}
-}
+
